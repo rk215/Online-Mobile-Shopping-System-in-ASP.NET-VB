@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Banner Image/Redmi 4A Main.jpg</ImageUrl>
+    <NavigateUrl>~/Promotion%20Page/SecondPromo.aspx</NavigateUrl>
+    <Impression>40</Impression>
+    <AlternateText>Comming Soon</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Banner Image/Redmi3SMain.jpg</ImageUrl>
+    <NavigateUrl>~/Promotion%20Page/FirstPromo.aspx</NavigateUrl>
+    <Impression>30</Impression>
+    <AlternateText>Comming Soon</AlternateText>
+  </Ad>
+</Advertisements>
