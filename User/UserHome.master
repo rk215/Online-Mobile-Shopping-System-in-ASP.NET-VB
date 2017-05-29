@@ -1,0 +1,59 @@
+﻿<%@ Master Language="VB" CodeFile="UserHome.master.vb" Inherits="User_UserHome" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        body {
+            font-family:Verdana;
+            padding: 1px;
+            margin: 1px;
+        }  
+       
+    </style>
+    <link href="../StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="Userheader">
+                <div class="lg-lo">
+                    <asp:Button ID="btHomeLogin" UseSubmitBehavior="false"  CssClass="Userlogin"  runat="server" Text="Login" />
+                    <asp:Label ID="lbuser" runat="server" CssClass="lbHomeLogin"></asp:Label>
+                    <asp:Button ID="btLogout" runat="server" CssClass="userlogout" Text="Logout" />
+                </div>
+                <h2>
+                    <asp:Button ID="btLogo" CssClass="logo" runat="server"
+                        Text="RK Mobile Shop" CausesValidation="False" />
+                </h2>
+                <div class="contain">
+                    <asp:TextBox ID="TxtUserHomeSearch" runat="server" 
+                        placeholder="Enter Mobile Name Here " CssClass="userHometxtSearch "></asp:TextBox>
+                    <asp:Button ID="btSearch" CssClass="userHomebtSearch" runat="server" 
+                        Text="Search" CausesValidation="False" />
+                    <asp:Label ID="lbCartCount" CssClass="lbcartcount" runat="server" Text="0"></asp:Label>
+                    <asp:Button ID="btCart" CssClass="userhomebtCart" runat="server" Text="Cart" 
+                        CausesValidation="False" />
+                    <asp:HyperLink ID="Hypervieworder" CssClass="csshomevieworder" NavigateUrl="~/User/View Order.aspx" runat="server">View Order</asp:HyperLink>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="userfooter">
+                <h3>About Me</h3>
+                <asp:HyperLink CssClass="hyperyoutube" ForeColor="#222" ID="hyperYoutube" NavigateUrl="https://www.youtube.com/channel/UC54WapSrgNu5oVx3v8x7iTA"
+                    runat="server">Youtube</asp:HyperLink><br />
+                <br />
+                <asp:HyperLink CssClass="hpfb" ID="hyperFacebook" NavigateUrl="http://facebook.com" runat="server">facebook</asp:HyperLink><br />
+                <br />
+                <asp:HyperLink CssClass="hpgithub" ForeColor="#222" ID="hyperGithub" NavigateUrl="http://github.com/rk215.com"
+                    runat="server">Github</asp:HyperLink>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
