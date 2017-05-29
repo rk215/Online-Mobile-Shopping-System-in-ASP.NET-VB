@@ -1,0 +1,3611 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*=========================================================Admin Upload page style===============*/
+/*Label desing in product upload */
+.lbproductUploadName {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadSensor {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadtype {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadbrand {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadbattery {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadSimtype {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadfrontCamera {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadbackcamera {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadplatform {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadOSversion {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadModelNumber {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadScreen {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadNetwork {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadBackFlash {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadProcessor {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadMainImage {
+    margin-top: 1px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadFirstImage {
+    margin-top: 1px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadSecondImage {
+    margin-top: 1px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadThirdImage {
+    margin-top: 1px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadcolor {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadGPU {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadQTY {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadprice {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadOpertefreq {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadinternal {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadExternal {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadRam {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadDimention {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductUploadWarrenty {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+/*Ending Label desing in product upload */
+.txtproductUploadproductName {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 170px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+.txtproductUploadName:focus {
+    border: 1px solid #d3722e;
+    box-shadow: 0 0 5px #d3722e;
+}
+
+.txtproductUploadbrand {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 141px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadbrand:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadBattery {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 113px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadBattery:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadFcamera {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadFcamera:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadBcamera {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadBcamera:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadOSVersion {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 148px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadOSVersion:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadModelNumber {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 125px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadModelNumber:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadScreen {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 144px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadScreen:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadSensor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 328px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadSensor:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadBFlash {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadBFlash:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadprocessor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadprocessor:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadGPU {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 140px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadGPU:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadPrice {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 182px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadPrice:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadQty {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 98px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadQty:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadoperateFreq {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 317px;
+    width: 350px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadoperateFreq::-webkit-input-placeholder {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .txtproductUploadoperateFreq:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadInternal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 42px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadInternal:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadExternal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 37px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadExternal:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadRam {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 120px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadRam:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadDimention {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 315px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadDimention:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductUploadWarrenty {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 315px;
+    width: 350px;
+    height: 70px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductUploadWarrenty:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.btproductUploadlogin {
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btproductUploadlogin:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.btproductUploadcancel {
+    margin-left: 20px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btproductUploadcancel:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.dropproductUploadtype {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 125px;
+    padding: 5px;
+}
+
+.dropproductUploadSimtype {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    padding: 5px;
+}
+
+.dropproductUploadplatform {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 165px;
+    padding: 5px;
+}
+
+.dropproductUploadnetwork {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 68px;
+    padding: 5px;
+}
+
+.dropproductUploadcolor {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 125px;
+    padding: 5px;
+}
+
+.AdminProductUploadcontainer {
+    width: 1155px;
+    border-radius: 5px;
+}
+
+.AdminProductUploadHeader {
+    width: 1155px;
+    background-color: #ddd;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.adminProductUploadValidation {
+    font-size: 14px;
+    color: #b72c2c;
+}
+
+.productuploadfileuploadMainimg {
+    margin-left: 55px;
+    color: #bebaba;
+}
+
+.productuploadfileuploadfirstimg {
+    margin-left: 57px;
+    color: #bebaba;
+}
+
+.productuploadfileuploadSecondimg {
+    margin-left: 35px;
+    color: #bebaba;
+}
+
+.productuploadfileuploadthirdimg {
+    margin-left: 54px;
+    color: #bebaba;
+}
+
+.lbproductUploadHeader {
+    font-size: 20px;
+    margin-left: 400px;
+    text-align: center;
+    color: #777;
+    line-height: 40px;
+}
+
+.AdminProductUploadProductstatus {
+    color: #000638;
+}
+
+.lbproductUploadmsg {
+    margin-left: 350px;
+    color: #808080;
+}
+/*End of Admin Upload page.*/
+/*===============================================================================================*/
+
+
+/*Admin Home css*/
+h3 {
+    color: #888;
+    font-size: 20px;
+    margin: 190px 300px;
+}
+/*==============================================================================Admin Master Page*/
+
+.header {
+    margin-top: -10px;
+    height: 100px;
+    width: 99%;
+    background-color: #1065a3;
+    position: fixed;
+    z-index: 1;
+}
+
+.adminLogo {
+    height: 100px;
+    width: 200px;
+    background-color: #1065a3;
+    border: 1px solid #1065a3;
+    color: #e3e3e3;
+    font-family: Verdana;
+    font-size: 23px;
+}
+
+    .adminLogo:hover {
+        background-color: #1065a3;
+        color: #fff;
+        cursor: pointer;
+    }
+
+.header h1 {
+    margin-top: -67px;
+    text-align: center;
+    color: #e6e6e6;
+    font-family: 'Adobe Arabic';
+}
+
+.adminlogout {
+    margin-top: -89px;
+    float: right;
+    margin-left: -10px;
+    height: 100px;
+    background-color: #1065a3;
+    border: 1PX solid #1065a3;
+    color: #e1e1e1;
+}
+
+    .adminlogout:hover {
+        background-color: #1080d1;
+        cursor: pointer;
+        color: #e3e3e3;
+    }
+
+.staticMenu {
+    background-color: #fff;
+    color: #777;
+    height: 50px;
+    line-height: 40px;
+    padding: 3px;
+    width: 169px;
+    border: 1px solid #6c6969;
+}
+
+.contentPage {
+    border-radius: 5px;
+    margin-left: 185px;
+    margin-top: 68px;
+    width: 1155px;
+    position: absolute;
+    border: 1px solid #dadada;
+}
+
+.menuitems {
+    margin-top: 68px;
+    position: absolute;
+    width: 178px;
+    z-index: 100;
+    text-align: center;
+    height: 510px;
+    border: 1px solid #6c6969;
+    position: fixed;
+}
+
+h2 {
+    color: #eee;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 2590px;
+    background-color: #1065a3;
+    border: 1px solid #1080d1;
+    border-radius: 3px;
+}
+/*------------------------------Admin Order Detail page----------------------*/
+.adminOrderDetailsHeader {
+    width: 1155px;
+    margin-top: -3px;
+    height: 34px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -3px;
+    background-color: #ddd;
+}
+
+.adminOrderDetailsHeaderSearch {
+    width: 1155px;
+    height: 60px;
+}
+
+.cssadminOrderDetailsHeader {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 450px;
+    color: #777;
+}
+
+.csslbadminOrderDetailsSearch {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 10px;
+    color: #252525;
+}
+
+.csstxtadminOrderDetailsSearch {
+    margin-left: 360px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #dadada;
+    width: 400px;
+    padding: 10px;
+}
+
+    .csstxtadminOrderDetailsSearch:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.cssbtadminOrderDetailsSearch {
+    margin-left: -1px;
+    width: 70px;
+    height: 36px;
+    outline: none;
+    margin-top: -6px;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .cssbtadminOrderDetailsSearch:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.adminOrderDetailsforgot {
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 980px;
+}
+
+.cssHyperForgotadminOrderDetailsForgot {
+    color: #9c1515;
+    text-decoration: none;
+}
+
+    .cssHyperForgotadminOrderDetailsForgot:hover {
+        border-bottom: 1px  solid #e40707;
+    }
+
+.cssgridscrollable {
+    width: 1155px;
+    margin-top: 30px;
+    overflow: scroll;
+}
+
+.cssadminOrderDetailsgrid {
+    text-align: center;
+    font-weight: 100;
+    border: 1px solid #dadada;
+    background-color: #f3f3f3;
+}
+
+.cssadminOrderDetailsgridheader {
+    text-align: center;
+    font-style: normal;
+    border-radius: 2px;
+    background-color: #f58d43;
+    color: #252525;
+}
+/*======================================================================end of order detail page.*/
+
+/*===========================================================================product delete style*/
+.cssProductDeleteMainImage {
+    width: 100px;
+    height: 180px;
+}
+
+.cssProductdeleteGrid {
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid #5e5454;
+}
+
+.cssProductDeletegridheader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #252525;
+    background-color: #febd69;
+}
+
+a {
+    /*target the delete button.*/
+    color: #5e5454;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #222222;
+    }
+
+.AdminProductDeleteHeader {
+    width: 1155px;
+    background-color: #dadada;
+    height: 34px;
+}
+
+.lbAdminDeleteHeader {
+    color: #303030;
+    position: absolute;
+    margin-left: 500px;
+    line-height: 34px;
+    font-size: 20px;
+}
+/*end of product delete*/
+/*-----------------------------Product Infomation---------------------------------*/
+.cssProdutInfoHeaderlb {
+    position: absolute;
+    margin-left: 400px;
+    line-height: 30px;
+    color: #808080;
+}
+
+.cssProdutInfoHeader {
+    width: 1155px;
+    margin-left: 5px;
+    height: 30px;
+    background-color: #dadada;
+}
+
+.cssproductInfoimgMainImage {
+    width: 100px;
+    height: 180px;
+}
+
+.cssProductinfoGrid {
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid #120808;
+}
+
+.cssProductinfogridheader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #252525;
+    background-color: #febd69;
+}
+/*End of Product Info*/
+/*---------------product update-----------------------------------------*/
+/*Label desing in product upload */
+.lbproductName {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductSensor {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproducprice {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproducttype {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductbrand {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductbrand {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductbattery {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductSimtype {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductfrontCamera {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductbackcamera {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductplatform {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductOSversion {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductModelNumber {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductScreen {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductNetwork {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproducBackFlash {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductProcessor {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductMainImage {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductFirstImage {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductSecondImage {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductThirdImage {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductcolor {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductGPU {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductProcessor {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductQTY {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductprice {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductOpertefreq {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductinternal {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductExternal {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductRam {
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductDimention {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+
+.lbproductWarrenty {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #bebaba;
+}
+/*Ending Label desing in product upload */
+.txtproductName {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 170px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductName:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductbrand {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 143px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductbrand:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductBattery {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 114px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductBattery:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductFcamera {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 28px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductFcamera:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductBcamera {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 29px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductBcamera:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductOSVersion {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 148px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductOSVersion:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductModelNumber {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 125px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductModelNumber:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductScreen {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 145px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductScreen:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductSensor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 333px;
+    width: 350px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductSensor:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductBFlash {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 155px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductBFlash:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductprocessor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 155px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductprocessor:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductGPU {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 145px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductGPU:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductPrice {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 190px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductPrice:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductQty {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 108px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductQty:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductoperateFreq {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 330px;
+    width: 350px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductoperateFreq::-webkit-input-placeholder {
+        font-family: Arial,Verdana;
+    }
+
+    .txtproductoperateFreq:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductInternal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 55px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductInternal:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductExternal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductExternal:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductRam {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 132px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductRam:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductDimention {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 330px;
+    width: 350px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductDimention:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtproductWarrenty {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 330px;
+    width: 350px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtproductWarrenty:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.dropProducttype {
+    width: 210px;
+    margin-left: 125px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.dropSimtype {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    padding: 5px;
+}
+
+.dropplatform {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 165px;
+    padding: 5px;
+}
+
+.dropnetwork {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    padding: 5px;
+}
+
+.dropcolor {
+    outline: none;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+    padding: 5px;
+}
+
+.AdminProductUpdatecontainer {
+    width: 1155px;
+    border-radius: 5px;
+}
+
+.AdminProductUpdatecontainer {
+    width: 1155px;
+    background-color: #ddd;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.adminProductUploadValidation {
+    font-size: 14px;
+    color: #b72c2c;
+}
+
+.lbHeader {
+    font-size: 20px;
+    margin-left: 400px;
+    text-align: center;
+    color: #777;
+    line-height: 40px;
+}
+
+.AdminProductUploadProductstatus {
+    color: #000638;
+}
+
+.lbmsg {
+    margin-left: 350px;
+    color: #808080;
+}
+
+.AdminProductUpdateSearch {
+    height: 55px;
+    border: 1px solid #dddddd;
+}
+
+.lbAdminProductUpdateSearch {
+    color: #bebaba;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.txtAdminProductUpdateSearch {
+    margin-left: 330px;
+    margin-top: 7px;
+    padding: 7px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    outline: none;
+}
+
+    .txtAdminProductUpdateSearch:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.btsearch {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btsearch:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.AdminProductUpdateControls {
+    border: 1px solid #dadada;
+    height: 2360px;
+}
+
+.AdminProductUpdateupdate {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 330px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .AdminProductUpdateupdate:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.AdminProductUpdatecancel {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 430px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .AdminProductUpdatecancel:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.btAdminProductUpdateResetcss {
+    margin-top: 7px;
+    margin-left: 500px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btAdminProductUpdateResetcss:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.lbmsg {
+    margin-left: -413px;
+    margin-top: 37px;
+    position: absolute;
+}
+
+.imgAdminProductUpdateProductMainImage {
+    margin-left: 330px;
+    width: 200px;
+    height: 200px;
+}
+
+.imgAdminProductUpdateProductfirstImage {
+    margin-left: 330px;
+    width: 200px;
+    height: 200px;
+}
+
+.imgAdminProductUpdateProductSecondImage {
+    margin-left: 330px;
+    width: 200px;
+    height: 200px;
+}
+
+.imgAdminProductUpdateProductThirdImage {
+    margin-left: 330px;
+    width: 200px;
+    height: 200px;
+}
+
+.lbproductMainImage {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.lbproductFirstImage {
+    position: absolute;
+    margin-top: 35px;
+}
+
+.lbproductSecondImage {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.lbproductThirdImage {
+    position: absolute;
+    margin-top: 80px;
+}
+
+.lbmsgStatus {
+    margin-left: 305px;
+    position: absolute;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.HyperForgotProductId {
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+    .HyperForgotProductId:hover {
+        border-bottom: 1px solid #1f014a;
+    }
+/*End of product update*/
+
+/*===============================================================================Shipping Details*/
+.cssAdminShippingDetailsgrid {
+    width: 1155px;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+}
+
+.cssAdminShippingDetailsgridHeader {
+    background-color: #f58d43;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #5e5454;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #222222;
+    }
+
+.AdminShippingDetailsheader {
+    width: 1155px;
+    margin-left: -1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: -3px;
+    background-color: #dadada;
+    height: 34px;
+}
+
+.csslbAdminShippingDetailsheader {
+    margin-left: 455px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #777;
+    position: absolute;
+}
+
+.lbAdminShippingDetailSearchControl {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 410px;
+}
+
+.dropAdminShippingDetailSearchControl {
+    margin-top: -2px;
+    padding: 5px;
+    width: 140px;
+    outline: none;
+    margin-left: 515px;
+}
+
+.dropAdminShippingDetailgridControl {
+    width: 140px;
+    padding: 5px;
+    outline: none;
+}
+
+.btAdminShippingDetailSearchControl {
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btAdminShippingDetailSearchControl:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.gridscroll {
+    width: 1170px;
+    overflow: scroll;
+}
+/*End of shipping details*/
+/*------------------User data------------------*/
+.cssLbAdminUserDataHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #252525;
+    position: absolute;
+    margin-left: 340px;
+}
+
+.cssadminUserdatagrid {
+    border: 1px solid #dadada;
+    background-color: #f3f3f3;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cssadminUserdatagridheader {
+    background-color: #f2ac51;
+}
+/*===============================================================================================*/
+
+
+
+
+/*------------------------------------------------------------------------------------User module*/
+/*------------------------User home Page (master page)----------------------------*/
+.Userheader {
+    border-radius: 3px;
+    margin-top: -30px;
+    height: 130px;
+    background-color: #0e6ab7;
+    box-shadow: 0 0 8px #1f324a;
+}
+
+.lg-lo {
+    margin-left: 1030px;
+    margin-top: 30px;
+}
+
+.contain {
+    margin-top: -100px;
+    margin-left: 280px;
+}
+
+.userHometxtSearch {
+    margin-top: 20px;
+    margin-left: -40px;
+    height: 10px;
+    padding: 15px;
+    width: 700px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #0e6ab7;
+    background-color: #ffffff;
+}
+
+    .userHometxtSearch:focus {
+        border: 1px solid #0e6ab7;
+        box-shadow: 0 0 10px #2899f7;
+    }
+
+.logo {
+    background-color: #0e6ab7;
+    border: 1px solid #0e6ab7;
+    font-family: Verdana;
+    font-size: 22px;
+    color: #e3e3e3;
+    outline: none;
+    margin: 0;
+    Height: 96px;
+    Width: 230px;
+    margin-top: -30px;
+}
+
+    .logo:hover {
+        background-color: #0e6ab7;
+        color: #f3f3f3;
+        cursor: pointer;
+    }
+
+.userHomebtSearch {
+    width: 85px;
+    height: 42px;
+    margin-left: -4px;
+    border: 1px solid #0e6ab7;
+    background-color: #fff;
+    outline: none;
+    color: #777;
+}
+
+    .userHomebtSearch:hover {
+        background-color: #e3e3e3;
+        cursor: pointer;
+        color: #333;
+    }
+
+.userhomebtCart {
+    width: 85px;
+    height: 42px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-right: 20px;
+    /*padding:0 20px 5px 5px;*/
+    border-radius: 5px;
+    margin-left: 80px;
+    border: 1px solid #0e6ab7;
+    background-color: #fff;
+    outline: none;
+    color: #777;
+}
+
+    .userhomebtCart:hover {
+        background-color: #e3e3e3;
+        cursor: pointer;
+        color: #333;
+    }
+
+.Userlogin {
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #0e6ab7;
+    background-color: #fff;
+    outline: none;
+    color: #777;
+    margin-left: 260px;
+}
+
+    .Userlogin:hover {
+        background-color: #e3e3e3;
+        cursor: pointer;
+        color: #333;
+    }
+
+.userlogout {
+    width: 53px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    outline: none;
+    color: #777;
+}
+
+    .userlogout:hover {
+        background-color: #e3e3e3;
+        cursor: pointer;
+        color: #333;
+    }
+
+.userfooter {
+    margin-top: 800px;
+    background-color: #f2f2f2;
+    height: 250px;
+    text-align: center;
+}
+
+.hyperyoutube, .hpgithub, .hpfb {
+    color: #222;
+    text-decoration: none;
+}
+
+    .hyperyoutube, .hpgithub, .hpfb:hover {
+        color: #999;
+        cursor: pointer;
+    }
+
+h3 {
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.lbHomeLogin {
+    color: #e0e0e0;
+}
+
+.lbcartcount {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 30px;
+}
+
+.csshomevieworder {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -80px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.auto-style1 {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 30px;
+    left: 1055px;
+    top: 79px;
+}
+/*End of User home masterpage*/
+/*-----------------------------------Default user home page.------------------*/
+.fimage {
+    padding: 0;
+    margin: auto 10px;
+    margin-top: 10px;
+    width: 98%;
+    height: 400px;
+}
+
+.simage {
+    padding: 0;
+    margin: auto 30px;
+    margin-top: 4px;
+    width: 90%;
+}
+
+h1 {
+    color: #808080;
+}
+
+.ad {
+    padding: 0;
+    margin: 0;
+}
+/*End of default user home page.*/
+
+/*--------------------------Product List styles------------------------------*/
+
+.productlistpricefilterfieldset {
+    width: 190px;
+    margin-top: 3px;
+    margin-left: -17px;
+}
+
+.productlistfiltertabPlatform {
+    margin-top: 290px;
+    margin-left: -426px;
+    height: 30px;
+}
+
+.productlistfilterplatformfieldset {
+    width: 186px;
+}
+
+.productlistfiltertabbrandname {
+    margin-top: 190px;
+    margin-left: -427px;
+}
+
+.productlistfilterbrandnamefieldset {
+    width: 190px;
+}
+
+.productlistfilterTab {
+    height: 460px;
+    margin-left: 2px;
+    padding: 21px;
+    border: 1px solid #dadada;
+    box-shadow: 0 0 10px #dadada;
+    margin-top: 23px;
+    width: 200px;
+}
+
+.productListContent {
+    /*product list area*/
+    margin-top: -500px;
+    padding: 10px;
+    margin-left: 270px;
+}
+
+.productListimg {
+    width: 260px;
+    text-align: center;
+    height: 180px;
+}
+
+.CSSProductListmainImage {
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    width: 100px;
+    height: 180px;
+    border: 1px solid #dadada;
+}
+
+.productlistBtViewDetails {
+    margin-left: 470px;
+    width: 170px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .productlistBtViewDetails:hover {
+        box-shadow: 0 0 10px #edac57;
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.productlistlbprice {
+    color: #b12704;
+}
+
+.productlistbrandName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cssproductlistLbheaderfilter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.productlistcssdrop {
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.productlistpagerposition {
+    position: absolute;
+    margin: 10px 380px;
+}
+
+.productlistleftpagebutton {
+    /*left side pager button like previous and first*/
+    background-color: #ffaf47;
+    border-radius: 3px;
+    color: #252525;
+    border: 1px solid #808080;
+    padding: 3px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .productlistleftpagebutton:hover {
+        background-color: #fba637;
+        padding: 4px;
+        height: 30px;
+    }
+
+    .productlistleftpagebutton:disabled {
+        padding: 5px;
+        height: 30px;
+        border-radius: 3px;
+        color: #252525;
+        background-color: #eebb78;
+        border: 1px solid #dadada;
+        cursor: not-allowed;
+    }
+
+.productlistrightpagebutton:hover {
+    background-color: #fba637;
+    padding: 4px;
+    height: 30px;
+}
+
+.productlistcurrentpage {
+    /*active page style*/
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.productlistrightpagebutton {
+    /*right side pager button like next and last*/
+    background-color: #ffaf47;
+    border-radius: 3px;
+    color: #252525;
+    border: 1px solid #808080;
+    padding: 3px;
+    height: 30px;
+    cursor: pointer;
+}
+
+    .productlistrightpagebutton:disabled {
+        padding: 5px;
+        height: 30px;
+        border-radius: 3px;
+        color: #252525;
+        background-color: #eebb78;
+        border: 1px solid #dadada;
+        cursor: not-allowed;
+    }
+
+.productlistnumericbutton {
+    /*other page link style except active page*/
+    color: #808080;
+    text-decoration: none;
+}
+
+/*End of product list styles*/
+
+
+
+
+
+
+
+/*---------------------------Product Details page style-----------------------------------*/
+
+
+        .cssimgProductDetailMain {
+            /*MainImage rules*/
+            width: 190px;
+            margin-left: 240px;
+            height: 100px;
+            margin-top: 50px;
+        }
+
+        .ProductDetailProductImage {
+            margin-top: 370px;
+            margin-left: -340px;
+        }
+
+        .productdetailmainImageTable {
+            margin-left: 40px;
+        }
+
+        .productdetailthumbnails {
+            position: absolute;
+            margin-left:310px;
+            margin-top: 70px;
+        }
+
+        .productdetailmainImageTablecssthumbnailimg1:hover, .productdetailmainImageTablecssthumbnailimg2:hover,
+        .productdetailmainImageTablecssthumbnailimg3:hover, .productdetailmainImageTablecssthumbnailimg4:hover {
+            border: 1px #dadada solid;
+            outline: none;
+        }
+        .productdetailmainImageTablecssproductinfo {
+            margin-top: -340px;
+            margin-left: 600px;
+        }
+
+        .productdetailmainImageTablespecs {
+            /*Style for left specs*/
+            padding: 5px;
+            margin: 120px 60px;
+        }
+
+        .productdetailcssBtbuynow{           
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            width: 170px;
+            height: 34px;
+            outline: none;
+            margin-left:20px;
+            border-radius: 3px;
+            border: 1px solid #f58d43;
+            color: #0c0909;
+            background-color: #f8991e;
+        }
+        
+
+            .productdetailcssBtbuynow:hover {
+                box-shadow: 0 0 10px #edac57;
+                background-color: #f39d2d;
+                color: #252525;
+                cursor: pointer;
+                font-size: 17px;
+                font-stretch: narrower;
+            }
+
+        .productdetailcssBtaddtocart {
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            width: 140px;
+            height: 34px;
+            outline: none;
+            border-radius: 3px;
+            border: 1px solid #f58d43;
+            color: #0c0909;
+            background-color: #e49f47;
+        }
+
+            .productdetailcssBtaddtocart:hover {
+                box-shadow: 0 0 10px #edac57;
+                background-color: #e0912a;
+                color: #252525;
+                cursor: pointer;
+                font-size: 17px;
+                font-stretch: narrower;
+            }
+
+        .cssproductdetailspname {
+            font-size: 24px;
+            font-stretch: narrower;
+            color: #013678;
+            margin-left: 80px;
+            position: absolute;
+        }
+
+        .cssproductdetailsBrand {
+            font-size: 22px;
+            position: absolute;
+            width: 250px;
+            font-stretch: narrower;
+            color: #013678;
+        }
+
+        .productdetailcssptype {
+            font-size: 18px;
+            width: 200px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-top: 20px;
+        }
+
+        .productdetailcssscreen {
+            width: 200px;
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-top: 25px;
+            margin-left: 3px;
+        }
+
+        .productdetailcssLbscreen {
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+
+        .productdetailcssprocessor {
+            width: 200px;
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 2px;
+        }
+
+        .productdetailcsslbprocessor {
+            font-size: 18px;
+            font-stretch: narrower;
+            margin-top: 30px;
+            position: absolute;
+            margin-left: 139px;
+        }
+
+        .productdetailcsscolor {
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin: 35px;
+            margin-left: 3px;
+        }
+
+        .productdetailcssLbColor {
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-left: 70px;
+            margin-top: 35px;
+        }
+
+        .productdetailcssinternal {
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-left: 3px;
+            margin-top: 40px;
+        }
+
+        .productdetailcsslbinternal {
+            width: 200px;
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-left: 55px;
+            margin-top: 40px;
+        }
+
+        .productdetailcssexternal {
+            position: absolute;
+            margin-top: 45px;
+            font-size: 18px;
+            margin-left: 3px;
+            font-stretch: narrower;
+        }
+
+        .productdetailcsslbexternal {
+            width: 200px;
+            font-size: 18px;
+            font-stretch: narrower;
+            position: absolute;
+            margin-top: 45px;
+            margin-left: 67px;
+        }
+
+        .productdetailcssprice {
+            color: #b12704;
+            font-variant-numeric: oldstyle-nums;
+            position: absolute;
+            margin-top: 55px;
+            font-size: 22px;
+        }
+
+        .productdetailcsslbprice {
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 94px;
+            font-size: 21px;
+        }
+
+        .productdetailmainImageTablesecondpartspecs {
+            margin-top: -590px;
+            position: absolute;
+            margin-left: 380px;
+        }
+
+        .cssImageMainDatalist {
+            text-align: center;
+            margin-top: 35px;
+            margin-left:150px;
+            width: 180px;
+            height: 300px;
+        }
+
+        .productdetailmainImageTablerepeaterMainImage {
+            position: absolute;
+            height:100px;
+            width:100px;
+            margin-left: 290px;
+            margin-top: 30px;          
+        }
+        .cssImageMainrepeater {
+            width: 200px;
+            margin-top: 10px;
+            margin-left:100px;
+            height: 350px;
+        }
+       
+          
+        /*More information in table form*/
+        .specs{
+            margin-top:130px;
+            margin-left:150px;
+        }
+        .secondpartspecs{
+            margin-left:460px;
+            margin-top:-480px;
+        }
+
+/*End of product details page.*/
+
+
+/*------------------------------- buy from cart styles-------------------------------*/
+/*User detail*/
+.CssUserDetails {
+    padding: 5px;
+    margin: 50px 410px;
+}
+/*First name*/
+.lbproceedFirstname {
+    position: absolute;
+    margin-left: 95px;
+}
+
+.txtproceedFirstname {
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtproceedFirstname:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Last name*/
+.lbcsslastname {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcsslastname {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcsslastname:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Email ID*/
+.lbcssemailid {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcssemailid {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssemailid:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Address*/
+.lbcssaddress {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcssaddress {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 80px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssaddress:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*State*/
+.lbcssstate {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcssstate {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssstate:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*City*/
+.lbcsscity {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcsscity {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcsscity:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Postal Code*/
+.lbcsspostal {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcsspostal {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcsspostal:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/* Phone Number*/
+.lbcssphone {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.txtcssphone {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 85px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssphone:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Next Button*/
+.btnext {
+    border: 1px solid #eb8e1b;
+    color: #020202;
+    font-size: 16px;
+    width: 300px;
+    height: 34px;
+    margin-top: 25px;
+    border-radius: 4px;
+    background-color: #eb8e1b;
+    margin-left: 94px;
+}
+
+    .btnext:hover {
+        font-size: 17px;
+        box-shadow: 0 0 10px #f5941c;
+        background-color: #f5941c;
+        cursor: pointer;
+    }
+/*For Payment Step*/
+
+fieldset {
+    box-shadow: 0 0 20px #dadada;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #dadada;
+    position: absolute;
+    width: 500px;
+    padding: 20px;
+    margin: 25px 410px;
+}
+
+legend {
+    font-size: 22px;
+    color: #252525;
+    font-stretch: condensed;
+}
+
+.paymenttitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.radioOption {
+    color: #202020;
+    font-size: 18px;
+}
+
+.paymentcsscard {
+    margin-top: 10px;
+    margin-left: 70px;
+    border-radius: 4px;
+    width: 350px;
+    outline: none;
+    border: 1px solid #ddd;
+    height: 13px;
+    padding: 7px;
+}
+
+    .paymentcsscard:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.paymentlbcardcss {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+.paymentlbcard {
+    margin-left: -30px;
+    margin-top: -5px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.paymentcssexpire {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -18px;
+}
+
+.paymentValidation {
+    margin-left: 10px;
+    color: #b11414;
+    font-size: 12px;
+}
+
+.paymentvalidationCard {
+    margin-left: 70px;
+    color: #b11414;
+    font-size: 12px;
+}
+
+.dropexmonth {
+    outline: none;
+    padding: 5px;
+    width: 160px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.dropexyear {
+    margin-left: 80px;
+    outline: none;
+    padding: 5px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.paymentCVV {
+    margin-left: 95px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ddd;
+    height: 13px;
+    padding: 7px;
+    border-radius: 4px;
+    width: 70px;
+}
+
+    .paymentCVV:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.paymentorderplace {
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid #eb8e1b;
+    color: #020202;
+    font-size: 16px;
+    width: 315px;
+    height: 34px;
+    outline: none;
+    background-color: #eda449;
+    margin-left: 10px;
+}
+
+    .paymentorderplace:hover {
+        font-size: 17px;
+        box-shadow: 0 0 10px #f5941c;
+        background-color: #f1a343;
+        cursor: pointer;
+    }
+
+    .paymentorderplace:disabled {
+        cursor: not-allowed;
+        background-color: #ffae4b;
+    }
+
+.paymentpanel {
+    margin-left: 20px;
+}
+
+.paymentlbCVV {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+}
+/*end of buy from cart*/
+
+
+
+/*-------------------------------------------- cart styles----------------------*/
+.cssItemImage {
+    width: 80px;
+    height: 150px;
+}
+
+.csseditImage {
+    width: 80px;
+    height: 150px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-stretch: narrower;
+}
+
+    a:hover {
+        color: #252525;
+    }
+
+.csscartgrid {
+    border: 1px solid #dadada;
+    text-align: center;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.dropqty {
+    text-align: center;
+    width: 140px;
+    padding: 5px;
+}
+
+.cssgridheader {
+    color: #eee;
+    background-color: #2d90e2;
+}
+
+.cssrowstyle {
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+
+.cssbtcheckout {
+    width: 200px;
+    background-color: rgba(238, 156, 28, 0.91);
+    height: 34px;
+    border: 1px solid #f17c29;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius:3px;
+    font-stretch: extra-expanded;
+    margin-left: 667px;
+    margin-top: 5px;
+}
+
+    .cssbtcheckout:hover {
+        color: #252525;
+        font-stretch: narrower;
+        cursor: pointer;
+        background-color: rgba(235, 156, 28, 0.8);
+    }
+
+.suggestion {
+    margin: 20px;
+    margin-left: 270px;
+    border: 1px solid #dadada;
+}
+
+.suggestionproducts {
+    margin-top: 10px;
+    border: 1px solid #dadada;
+}
+
+.suggestionproductsInfo {
+    margin-left: 120px;
+    margin-top: -145px;
+}
+
+.csssuggestionproductsInfoView {
+    width: 100px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #ea9816;
+    border: 1px solid #ea9816;
+}
+
+    .csssuggestionproductsInfoView:hover {
+        background-color: #e08e0e;
+        cursor: pointer;
+    }
+
+.separater {
+    border: 1px solid #dadada;
+}
+
+th {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+.suggestionImage {
+    width: 75px;
+    height: 135px;
+}
+
+.csssuggestionproductsInfoprice {
+    color: #b12704;
+    font-variant-numeric: oldstyle-nums;
+}
+
+.csslbQtyError {
+    position: absolute;
+    margin-left: 270px;
+    color: #d71818;
+    font-size: 17px;
+}
+/*End of cart styles.*/
+
+
+
+
+
+/*-------------------------------Login page---------------------------------*/
+.logincontainer {
+    margin: 70px auto;
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+}
+
+.loginHeader {
+    width: 400px;
+    height: 40px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #ddd;
+}
+
+.Lbloginheader {
+    margin-left: 10px;
+    color: #777;
+    line-height: 40px;
+}
+
+.lbloginusername {
+    margin-left: 10px;
+    color: #bebaba;
+}
+
+.logincontrols {
+    margin-top: 35px;
+   
+}
+
+.lbloginpassword {
+    margin-left: 10px;
+    color: #bebaba;
+}
+
+.txtloginusername {
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtloginusername:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtloginpassword {
+    margin-top: 3px;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 350px;
+    outline: none;
+    border: 1px solid #ddd;
+    height: 13px;
+    padding: 7px;
+}
+
+    .txtloginpassword:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.btlogin {
+    margin-left: 300px;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btlogin:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.linkbtnewuser {
+    position:absolute;
+    margin-top:30px;
+    margin-left: 20px;
+    color: #184dad;
+}
+
+    .linkbtnewuser:hover {
+        color: #002e82;
+    }
+
+.LoginValidation {
+    margin-left: 10px;
+    color: #b72c2c;
+    font-size: 14px;
+}
+/*End of login page.*/
+/*==========================================================Register style.===============*/
+.registercontainer{
+    margin: 70px auto;
+    width: 400px;
+    height: 930px;
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+}
+
+/*End of registeration page*/
+
+
+
+
+
+/*-----------------------------order details styles*/
+
+
+.orderdetailcontainer {
+    width: 550px;
+    height: 300px;
+    border: 1px solid #dadada;
+    margin: 50px 410px;
+    padding: 5px;
+}
+
+.orderdetailorderid {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.orderdate {
+    margin-top: 4px;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.orderdetailsrightpart {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.orderdetailsImage {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.orderViewimage {
+    height: 180px;
+    width: 100px;
+}
+/*End of order details*/
+
+
+
+
+
+
+/*----------------------------------------Proced checkout(from buynow)----------------------*/
+/*User detail*/
+.CssUserDetails {
+    padding: 5px;
+    margin: 50px 470px;
+}
+/*First name*/
+.lbproceedFirstname {
+    position: absolute;
+    margin-left: 25px;
+}
+
+.txtproceedFirstname {
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtproceedFirstname:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Last name*/
+.lbcsslastname {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcsslastname {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcsslastname:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Email ID*/
+.lbcssemailid {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcssemailid {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssemailid:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Address*/
+.lbcssaddress {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcssaddress {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 80px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssaddress:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*State*/
+.lbcssstate {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcssstate {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssstate:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*City*/
+.lbcsscity {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcsscity {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcsscity:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Postal Code*/
+.lbcsspostal {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcsspostal {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcsspostal:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/* Phone Number*/
+.lbcssphone {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.txtcssphone {
+    margin-top: 10px;
+    font-stretch: narrower;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+    .txtcssphone:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+/*Next Button*/
+.btnext {
+    border: 1px solid #eb8e1b;
+    color: #020202;
+    font-size: 16px;
+    width: 315px;
+    height: 34px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #eb8e1b;
+    margin-left: 20px;
+}
+
+    .btnext:hover {
+        font-size: 17px;
+        box-shadow: 0 0 10px #f5941c;
+        background-color: #f5941c;
+        cursor: pointer;
+    }
+
+fieldset {
+    margin: 50px 410px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 20px;
+}
+
+.checkoutheader {
+    font-size: 18px;
+}
+
+.radioOption {
+    font-size: 18px;
+}
+
+.checkoutlbcard {
+    position: absolute;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.checkouttxtcard {
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 4px;
+    width: 270px;
+    outline: none;
+    border: 1px solid #ddd;
+    height: 13px;
+    padding: 7px;
+}
+
+    .checkouttxtcard:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.paymentValidation {
+    margin-left: 10px;
+    color: #b11414;
+    font-size: 12px;
+}
+
+.paymentvalidationCard {
+    margin-left: 20px;
+    color: #b11414;
+    font-size: 12px;
+}
+
+.checkoutlbexpiredate {
+    position: absolute;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.checkoutdropmonth {
+    margin-left: 90px;
+    width: 160px;
+    padding: 5px;
+    outline: none;
+}
+
+.checkoutdropYear {
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 160px;
+    padding: 5px;
+    outline: none;
+}
+
+.checkoutlbCVV {
+    position: absolute;
+    font-size: 14px;
+    margin-top: -2px;
+}
+
+.checkouttxtCVV {
+    width: 50px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 110px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+    .checkouttxtCVV:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.checkoutplaceorder {
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid #eb8e1b;
+    color: #020202;
+    font-size: 16px;
+    width: 315px;
+    height: 34px;
+    outline: none;
+    background-color: #eda449;
+    margin-left: 10px;
+}
+
+    .checkoutplaceorder:hover {
+        font-size: 17px;
+        box-shadow: 0 0 10px #f5941c;
+        background-color: #f1a343;
+        cursor: pointer;
+    }
+/*End of buynow Proceed checkout*/
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------Register form----------------------------------------------*/
+.logincontainer {
+    margin: 70px auto;
+    width: 400px;
+    height: 360px;
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+}
+
+.loginHeader {
+    width: 400px;
+    height: 40px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #ddd;
+}
+
+.Lbloginheader {
+    margin-left: 10px;
+    color: #777;
+    line-height: 40px;
+}
+
+.lbloginusername {
+    margin-left: 10px;
+    color: #bebaba;
+}
+
+.logincontrols {
+    margin-top: 35px;
+    height:190px;
+}
+
+.lbloginpassword {
+    margin-left: 10px;
+    color: #bebaba;
+}
+
+.txtloginusername {
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 350px;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtloginusername:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.txtloginpassword {
+    margin-top: 3px;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 350px;
+    outline: none;
+    border: 1px solid #ddd;
+    height: 13px;
+    padding: 7px;
+}
+
+    .txtloginpassword:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.btlogin {
+    margin-left: 10px;
+    width: 367px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .btlogin:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.txtregistrationaddress {    
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;  
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    outline: none;
+}
+
+    .txtregistrationaddress:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.registrationValidation {
+    margin-left: 10px;
+    color: #b72c2c;
+    font-size: 13px;
+}
+/*end of registration form*/
+
+
+
+
+
+
+
+
+/*----------------------------------------view order--------------------------------*/
+
+.orderViewContainer {
+    box-shadow: 0 0 10px #dadada;
+    border-radius: 4px;
+    padding: 10px;
+    height: 270px;
+    border: 1px solid #dadada;
+    margin: 50px 410px;
+}
+
+.orderID {
+    font-stretch: narrower;
+    margin-left: 10px;
+}
+
+.orderDate {
+    margin-top: -17px;
+    float: right;
+}
+
+.orderProductImage {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.orderimage {
+    width: 100px;
+    height: 180px;
+}
+
+.ordercancel {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.cancel {
+    text-decoration: none;
+}
+
+.orderinfo {
+    padding: 5px;
+    margin-top: -180px;
+    margin-left: 210px;
+}
+
+.vieworderdetails {
+    margin-left: 215px;
+    margin-top: 16px;
+}
+
+.btvieworderdetails {
+    border: 1px solid #febd69;
+    background-color: #febd69;
+    width: 180px;
+    height: 28px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+    .btvieworderdetails:hover {
+        background-color: #ffaf48;
+        cursor: pointer;
+    }
+
+.ordername {
+    padding: 5px;
+}
+
+.lbemptyOrder {
+    color: #555;
+    font-size: 22px;
+    position: absolute;
+    margin: 50px 410px;
+}
+/*End of view order*/
