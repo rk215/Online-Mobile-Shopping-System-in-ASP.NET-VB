@@ -1,0 +1,72 @@
+﻿<%@ Master Language="VB" CodeFile="AdminMaster.master.vb" Inherits="Admin_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../StyleSheet.css" rel="stylesheet" />
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <asp:Button ID="btadminLogo" CssClass="adminLogo" runat="server" Text="Admin Panel" />
+            <h1>Welcome to Admin Panel</h1>
+            <asp:Button ID="btadminLogout" runat="server" CssClass="adminlogout" Text="Logout" CausesValidation="False" />
+        </div>
+        <br />
+        <br />
+        <div class="menuitems">
+            <asp:Menu CssClass="menu" ID="Menu1" runat="server" StaticHoverStyle-BackColor="#eeeeee"
+                StaticHoverStyle-Width="170px"
+                StaticMenuItemStyle-CssClass="staticMenu" StaticSelectedStyle-BackColor="#cccccc"
+                StaticSelectedStyle-BorderColor="#808080" StaticSelectedStyle-ForeColor="#ffffff"
+                StaticSelectedStyle-Width="170px" StaticSelectedStyle-BorderWidth="1">
+                <Items>
+                    <asp:MenuItem Text="Product Upload" NavigateUrl="~/Admin/ProductUpload.aspx" Value="Product Upload">
+                    </asp:MenuItem>
+
+                    <asp:MenuItem NavigateUrl="~/Admin/ProductInfo.aspx" Text="Product Info"
+                        Value="Product Info"></asp:MenuItem>
+
+                    <asp:MenuItem Text="Prodct Update" NavigateUrl="~/Admin/ProductUpdate.aspx" Value="Prodct Update">
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Product Delete" Value="Product Delete"
+                        NavigateUrl="~/Admin/DeleteProduct.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="View Order" Value="View Order" 
+                        NavigateUrl="~/Admin/AdminOrderDetails.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Check Shiping Status" Value="Check Shiping Status" 
+                        NavigateUrl="~/Admin/ShippingDetails.aspx"></asp:MenuItem>
+
+                    <asp:MenuItem Text="User Details" Value="User Details"
+                        NavigateUrl="~/Admin/UserData.aspx"></asp:MenuItem>
+                </Items>
+
+                <StaticHoverStyle BackColor="#EEEEEE"></StaticHoverStyle>
+
+                <StaticMenuItemStyle CssClass="staticMenu"></StaticMenuItemStyle>
+
+                <StaticSelectedStyle BackColor="#CCCCCC" BorderColor="Gray" BorderWidth="1px" ForeColor="White">
+                </StaticSelectedStyle>
+            </asp:Menu>
+        </div>
+
+        <div class="contentPage">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <h2>Copyright to RK215</h2>
+        </div>
+    </form>
+</body>
+</html>
