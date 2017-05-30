@@ -227,7 +227,5 @@ Partial Class User_BuyFromCart
     End Sub
     Protected Sub getinfo()
         orderdate = DateTime.Now.ToString
-
-
     End Sub
 End Class
