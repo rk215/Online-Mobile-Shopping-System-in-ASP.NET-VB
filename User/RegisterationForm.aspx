@@ -1,14 +1,14 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/User/UserHome.master" AutoEventWireup="false" CodeFile="RegisterationForm.aspx.vb" Inherits="User_RegisterationForm" %>
+<%@ Page Title="" Language="VB" MasterPageFile="~/User/UserHome.master" AutoEventWireup="false" CodeFile="RegisterationForm.aspx.vb" Inherits="User_RegisterationForm" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
-        .txtregistrationaddress{
-            font-family:Arial, Helvetica, sans-serif;
+        .txtregistrationaddress {
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
     <link href="../StyleSheet.css" rel="stylesheet" />
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="registercontainer">
         <div class="loginHeader">
             <asp:Label ID="Lbloginheader" CssClass="Lbloginheader" runat="server" Text="Registration"></asp:Label>
@@ -31,8 +31,9 @@
             <%-- UserName --%>
             <asp:Label ID="lbregistrationusername" CssClass="lbloginusername" runat="server" Text="Username"></asp:Label><br />
             <asp:TextBox ID="txtregistrationusername" CssClass="txtloginusername" runat="server"></asp:TextBox><br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorUsername" Display="Dynamic" runat="server" ControlToValidate="txtregistrationusername" CssClass="registrationValidation" ErrorMessage="Email ID is Required"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionEmail" runat="server"
-                CssClass="registrationValidation" ErrorMessage="Email id is not Valid" ControlToValidate="txtregistrationusername"
+                CssClass="registrationValidation" Display="Dynamic" ErrorMessage="Email id is not Valid" ControlToValidate="txtregistrationusername"
                 ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
             <br />
             <%-- Password --%>
@@ -69,16 +70,18 @@
             <%--Address--%>
             <asp:Label ID="lbregistrationaddress" CssClass="lbloginusername" runat="server"
                 Text="Address"></asp:Label><br />
-            <asp:TextBox ID="txtregistrationaddress" MaxLength="50"  TextMode="MultiLine" CssClass="txtregistrationaddress"
+            <asp:TextBox ID="txtregistrationaddress" MaxLength="50" TextMode="MultiLine" CssClass="txtregistrationaddress"
                 runat="server"></asp:TextBox><br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorAddress" runat="server" ControlToValidate="txtregistrationaddress" CssClass="registrationValidation" ErrorMessage="User Address is Required"></asp:RequiredFieldValidator>
             <br />
             <%--Credit or Debit card Number--%>
             <asp:Label ID="lbregistrationcreditcard" CssClass="lbloginusername" runat="server"
                 Text="Credit or Debit card Number"></asp:Label><br />
             <asp:TextBox ID="txtregistrationcreditcard" CssClass="txtloginusername"
                 runat="server" MaxLength="16"></asp:TextBox><br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorCreditCard" Display="Dynamic" runat="server" ControlToValidate="txtregistrationcreditcard" CssClass="registrationValidation" ErrorMessage="Credit/Debit Card is Required"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionCreditCard" runat="server"
-                ErrorMessage="Please Enter Only digits" CssClass="registrationValidation" ControlToValidate="txtregistrationcreditcard"
+                ErrorMessage="Please Enter Only digits" Display="Dynamic" CssClass="registrationValidation" ControlToValidate="txtregistrationcreditcard"
                 ValidationExpression="^\d{16}$"> </asp:RegularExpressionValidator>
             <br />
             <%--State--%>
@@ -86,7 +89,8 @@
                 Text="State"></asp:Label><br />
             <asp:TextBox ID="txtregistrationstate" CssClass="txtloginusername"
                 runat="server" MaxLength="20"></asp:TextBox><br />
-            <asp:RegularExpressionValidator ID="RegularExpressionState" runat="server"
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorState" Display="Dynamic" runat="server" CssClass="registrationValidation" ControlToValidate="txtregistrationstate" ErrorMessage="Credit/Debit Card is Required"></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator Display="Dynamic" ID="RegularExpressionState" runat="server"
                 ErrorMessage="Please Enter Only Character" CssClass="registrationValidation"
                 ControlToValidate="txtregistrationstate"
                 ValidationExpression="^[a-zA-Z]*$"> </asp:RegularExpressionValidator>
@@ -96,8 +100,9 @@
                 Text="city"></asp:Label><br />
             <asp:TextBox ID="txtregistrationcity" CssClass="txtloginusername"
                 runat="server" MaxLength="20"></asp:TextBox><br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" Display="Dynamic" runat="server" CssClass="registrationValidation" ControlToValidate="txtregistrationcity" ErrorMessage="Credit/Debit Card is Required"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
-                ErrorMessage="Please Enter Only Character" CssClass="registrationValidation"
+                ErrorMessage="Please Enter Only Character" Display="Dynamic" CssClass="registrationValidation"
                 ControlToValidate="txtregistrationcity"
                 ValidationExpression="^[a-zA-Z]*$"> </asp:RegularExpressionValidator>
             <br />
@@ -106,15 +111,17 @@
                 Text="Zipcode"></asp:Label><br />
             <asp:TextBox ID="txtregistrationZipcode" CssClass="txtloginusername"
                 runat="server" MaxLength="6"></asp:TextBox><br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" Display="Dynamic" runat="server" CssClass="registrationValidation" ControlToValidate="txtregistrationZipcode" ErrorMessage="Credit/Debit Card is Required"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionZipcode" runat="server"
-                ErrorMessage="Please Enter Only Digit" CssClass="registrationValidation"
+                ErrorMessage="Please Enter Only Digit" Display="Dynamic" CssClass="registrationValidation"
                 ControlToValidate="txtregistrationZipcode"
                 ValidationExpression="^\d{6}$"> </asp:RegularExpressionValidator>
             <br />
             <%--Registration--%>
             <asp:Button ID="btregistration" CssClass="btlogin" runat="server" Text="Registration" />
         </div>
-       
+
     </div>
 </asp:Content>
+
 
