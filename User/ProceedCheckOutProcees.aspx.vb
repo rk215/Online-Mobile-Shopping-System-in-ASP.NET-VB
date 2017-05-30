@@ -219,6 +219,5 @@ Partial Class User_ProceedCheckOutProcees
         con.Open()
         cmd.ExecuteNonQuery()
         con.Close()
-
     End Sub
 End Class
