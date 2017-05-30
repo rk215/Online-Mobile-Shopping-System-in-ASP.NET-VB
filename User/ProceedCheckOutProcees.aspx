@@ -202,7 +202,6 @@
                 </asp:Panel>
                 <asp:Button ID="Btplaceorder" CssClass="checkoutplaceorder" Enabled="false" TabIndex="1" runat="server" Text="Place Order" />
             </fieldset>
-
         </asp:View>
     </asp:MultiView>
 
