@@ -1,4 +1,4 @@
-﻿Imports System.Data.SqlClient
+Imports System.Data.SqlClient
 Imports System.Data
 Partial Class User_UserHome
     Inherits System.Web.UI.MasterPage
@@ -13,10 +13,15 @@ Partial Class User_UserHome
             btHomeLogin.Visible = True
             btLogout.Visible = False
             lbuser.Visible = False
+            HyperProfile.Visible = False
+            Hypervieworder.Visible = False
+
         Else
             btHomeLogin.Visible = False
             btLogout.Visible = True
             lbuser.Visible = True
+            HyperProfile.Visible = True
+            Hypervieworder.Visible = True
             lbuser.Text = "[" + Request.Cookies("User-data")("name").ToString + "]"
             getproductcount()
         End If
@@ -69,7 +74,7 @@ Partial Class User_UserHome
         lbCartCount.Text = totalproduct
 
     End Sub
-    'get all
+    'GET ALL REGISTER USER ID
     Protected Sub getregisterId()
         cmd = New SqlCommand("Select registerId from RegistrationMaster where username=@username", con)
         cmd.Parameters.AddWithValue("@username",
