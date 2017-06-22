@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*=========================================================Admin Upload page style===============*/
@@ -732,7 +732,8 @@ h2 {
 }
 
 .footer {
-    margin-top: 2590px;
+    /*margin-top: 2590px;*/
+    margin:auto;
     background-color: #1065a3;
     border: 1px solid #1080d1;
     border-radius: 3px;
@@ -812,7 +813,7 @@ h2 {
 }
 
     .cssHyperForgotadminOrderDetailsForgot:hover {
-        border-bottom: 1px  solid #e40707;
+        border-bottom: 1px solid #e40707;
     }
 
 .cssgridscrollable {
@@ -1946,14 +1947,6 @@ h3 {
     margin-top: 30px;
 }
 
-.csshomevieworder {
-    position: absolute;
-    margin-top: 70px;
-    margin-left: -80px;
-    color: #fff;
-    text-decoration: none;
-}
-
 .auto-style1 {
     position: absolute;
     margin-left: 135px;
@@ -2168,252 +2161,255 @@ h1 {
 /*---------------------------Product Details page style-----------------------------------*/
 
 
-        .cssimgProductDetailMain {
-            /*MainImage rules*/
-            width: 190px;
-            margin-left: 240px;
-            height: 100px;
-            margin-top: 50px;
-        }
+.cssimgProductDetailMain {
+    /*MainImage rules*/
+    width: 190px;
+    margin-left: 240px;
+    height: 100px;
+    margin-top: 50px;
+}
 
-        .ProductDetailProductImage {
-            margin-top: 370px;
-            margin-left: -340px;
-        }
+.ProductDetailProductImage {
+    margin-top: 370px;
+    margin-left: -340px;
+}
 
-        .productdetailmainImageTable {
-            margin-left: 40px;
-        }
+.productdetailmainImageTable {
+    margin-left: 40px;
+}
 
-        .productdetailthumbnails {
-            position: absolute;
-            margin-left:310px;
-            margin-top: 70px;
-        }
+.productdetailthumbnails {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 70px;
+}
 
-        .productdetailmainImageTablecssthumbnailimg1:hover, .productdetailmainImageTablecssthumbnailimg2:hover,
-        .productdetailmainImageTablecssthumbnailimg3:hover, .productdetailmainImageTablecssthumbnailimg4:hover {
-            border: 1px #dadada solid;
-            outline: none;
-        }
-        .productdetailmainImageTablecssproductinfo {
-            margin-top: -340px;
-            margin-left: 600px;
-        }
+.productdetailmainImageTablecssthumbnailimg1:hover, .productdetailmainImageTablecssthumbnailimg2:hover,
+.productdetailmainImageTablecssthumbnailimg3:hover, .productdetailmainImageTablecssthumbnailimg4:hover {
+    border: 1px #dadada solid;
+    outline: none;
+}
 
-        .productdetailmainImageTablespecs {
-            /*Style for left specs*/
-            padding: 5px;
-            margin: 120px 60px;
-        }
+.productdetailmainImageTablecssproductinfo {
+    margin-top: -340px;
+    margin-left: 600px;
+}
 
-        .productdetailcssBtbuynow{           
-            margin-top: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            width: 170px;
-            height: 34px;
-            outline: none;
-            margin-left:20px;
-            border-radius: 3px;
-            border: 1px solid #f58d43;
-            color: #0c0909;
-            background-color: #f8991e;
-        }
-        
+.productdetailmainImageTablespecs {
+    /*Style for left specs*/
+    padding: 5px;
+    margin: 120px 60px;
+}
 
-            .productdetailcssBtbuynow:hover {
-                box-shadow: 0 0 10px #edac57;
-                background-color: #f39d2d;
-                color: #252525;
-                cursor: pointer;
-                font-size: 17px;
-                font-stretch: narrower;
-            }
+.productdetailcssBtbuynow {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 170px;
+    height: 34px;
+    outline: none;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #f8991e;
+}
 
-        .productdetailcssBtaddtocart {
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            width: 140px;
-            height: 34px;
-            outline: none;
-            border-radius: 3px;
-            border: 1px solid #f58d43;
-            color: #0c0909;
-            background-color: #e49f47;
-        }
 
-            .productdetailcssBtaddtocart:hover {
-                box-shadow: 0 0 10px #edac57;
-                background-color: #e0912a;
-                color: #252525;
-                cursor: pointer;
-                font-size: 17px;
-                font-stretch: narrower;
-            }
+    .productdetailcssBtbuynow:hover {
+        box-shadow: 0 0 10px #edac57;
+        background-color: #f39d2d;
+        color: #252525;
+        cursor: pointer;
+        font-size: 17px;
+        font-stretch: narrower;
+    }
 
-        .cssproductdetailspname {
-            font-size: 24px;
-            font-stretch: narrower;
-            color: #013678;
-            margin-left: 80px;
-            position: absolute;
-        }
+.productdetailcssBtaddtocart {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 140px;
+    height: 34px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #e49f47;
+}
 
-        .cssproductdetailsBrand {
-            font-size: 22px;
-            position: absolute;
-            width: 250px;
-            font-stretch: narrower;
-            color: #013678;
-        }
+    .productdetailcssBtaddtocart:hover {
+        box-shadow: 0 0 10px #edac57;
+        background-color: #e0912a;
+        color: #252525;
+        cursor: pointer;
+        font-size: 17px;
+        font-stretch: narrower;
+    }
 
-        .productdetailcssptype {
-            font-size: 18px;
-            width: 200px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-top: 20px;
-        }
+.cssproductdetailspname {
+    font-size: 24px;
+    font-stretch: narrower;
+    color: #013678;
+    margin-left: 80px;
+    position: absolute;
+}
 
-        .productdetailcssscreen {
-            width: 200px;
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-top: 25px;
-            margin-left: 3px;
-        }
+.cssproductdetailsBrand {
+    font-size: 22px;
+    position: absolute;
+    width: 250px;
+    font-stretch: narrower;
+    color: #013678;
+}
 
-        .productdetailcssLbscreen {
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-left: 60px;
-            margin-top: 25px;
-        }
+.productdetailcssptype {
+    font-size: 18px;
+    width: 200px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-top: 20px;
+}
 
-        .productdetailcssprocessor {
-            width: 200px;
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-top: 30px;
-            margin-left: 2px;
-        }
+.productdetailcssscreen {
+    width: 200px;
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 3px;
+}
 
-        .productdetailcsslbprocessor {
-            font-size: 18px;
-            font-stretch: narrower;
-            margin-top: 30px;
-            position: absolute;
-            margin-left: 139px;
-        }
+.productdetailcssLbscreen {
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 25px;
+}
 
-        .productdetailcsscolor {
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin: 35px;
-            margin-left: 3px;
-        }
+.productdetailcssprocessor {
+    width: 200px;
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 2px;
+}
 
-        .productdetailcssLbColor {
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-left: 70px;
-            margin-top: 35px;
-        }
+.productdetailcsslbprocessor {
+    font-size: 18px;
+    font-stretch: narrower;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 139px;
+}
 
-        .productdetailcssinternal {
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-left: 3px;
-            margin-top: 40px;
-        }
+.productdetailcsscolor {
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin: 35px;
+    margin-left: 3px;
+}
 
-        .productdetailcsslbinternal {
-            width: 200px;
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-left: 55px;
-            margin-top: 40px;
-        }
+.productdetailcssLbColor {
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 35px;
+}
 
-        .productdetailcssexternal {
-            position: absolute;
-            margin-top: 45px;
-            font-size: 18px;
-            margin-left: 3px;
-            font-stretch: narrower;
-        }
+.productdetailcssinternal {
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 40px;
+}
 
-        .productdetailcsslbexternal {
-            width: 200px;
-            font-size: 18px;
-            font-stretch: narrower;
-            position: absolute;
-            margin-top: 45px;
-            margin-left: 67px;
-        }
+.productdetailcsslbinternal {
+    width: 200px;
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 40px;
+}
 
-        .productdetailcssprice {
-            color: #b12704;
-            font-variant-numeric: oldstyle-nums;
-            position: absolute;
-            margin-top: 55px;
-            font-size: 22px;
-        }
+.productdetailcssexternal {
+    position: absolute;
+    margin-top: 45px;
+    font-size: 18px;
+    margin-left: 3px;
+    font-stretch: narrower;
+}
 
-        .productdetailcsslbprice {
-            position: absolute;
-            margin-top: 60px;
-            margin-left: 94px;
-            font-size: 21px;
-        }
+.productdetailcsslbexternal {
+    width: 200px;
+    font-size: 18px;
+    font-stretch: narrower;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 67px;
+}
 
-        .productdetailmainImageTablesecondpartspecs {
-            margin-top: -590px;
-            position: absolute;
-            margin-left: 380px;
-        }
+.productdetailcssprice {
+    color: #b12704;
+    font-variant-numeric: oldstyle-nums;
+    position: absolute;
+    margin-top: 55px;
+    font-size: 22px;
+}
 
-        .cssImageMainDatalist {
-            text-align: center;
-            margin-top: 35px;
-            margin-left:150px;
-            width: 180px;
-            height: 300px;
-        }
+.productdetailcsslbprice {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 94px;
+    font-size: 21px;
+}
 
-        .productdetailmainImageTablerepeaterMainImage {
-            position: absolute;
-            height:100px;
-            width:100px;
-            margin-left: 290px;
-            margin-top: 30px;          
-        }
-        .cssImageMainrepeater {
-            width: 200px;
-            margin-top: 10px;
-            margin-left:100px;
-            height: 350px;
-        }
-       
-          
-        /*More information in table form*/
-        .specs{
-            margin-top:130px;
-            margin-left:150px;
-        }
-        .secondpartspecs{
-            margin-left:460px;
-            margin-top:-480px;
-        }
+.productdetailmainImageTablesecondpartspecs {
+    margin-top: -590px;
+    position: absolute;
+    margin-left: 380px;
+}
+
+.cssImageMainDatalist {
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 150px;
+    width: 180px;
+    height: 300px;
+}
+
+.productdetailmainImageTablerepeaterMainImage {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.cssImageMainrepeater {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 350px;
+}
+
+
+/*More information in table form*/
+.specs {
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.secondpartspecs {
+    margin-left: 460px;
+    margin-top: -480px;
+}
 
 /*End of product details page.*/
 
@@ -2835,7 +2831,7 @@ a {
     border: 1px solid #f17c29;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    border-radius:3px;
+    border-radius: 3px;
     font-stretch: extra-expanded;
     margin-left: 667px;
     margin-top: 5px;
@@ -2940,7 +2936,6 @@ th {
 
 .logincontrols {
     margin-top: 35px;
-   
 }
 
 .lbloginpassword {
@@ -2997,8 +2992,8 @@ th {
     }
 
 .linkbtnewuser {
-    position:absolute;
-    margin-top:30px;
+    position: absolute;
+    margin-top: 30px;
     margin-left: 20px;
     color: #184dad;
 }
@@ -3014,7 +3009,7 @@ th {
 }
 /*End of login page.*/
 /*==========================================================Register style.===============*/
-.registercontainer{
+.registercontainer {
     margin: 70px auto;
     width: 400px;
     height: 930px;
@@ -3446,7 +3441,7 @@ legend {
 
 .logincontrols {
     margin-top: 35px;
-    height:190px;
+    height: 190px;
 }
 
 .lbloginpassword {
@@ -3502,10 +3497,10 @@ legend {
         cursor: pointer;
     }
 
-.txtregistrationaddress {    
+.txtregistrationaddress {
     margin-top: 3px;
     margin-left: 10px;
-    font-family:Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
     width: 350px;
     height: 50px;
     border-radius: 4px;
@@ -3609,3 +3604,284 @@ legend {
     margin: 50px 410px;
 }
 /*End of view order*/
+
+/*===========================================================================User profile Styles*/
+.userprofileContainer {
+    margin: 50px 300px;
+    border-radius: 4px;
+    width:600px;
+    height: 610px;
+    border: 1px solid #dadada;
+}
+
+.userprofileHeader {
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #ddd;
+}
+
+.userprofileheaderTitle {
+    line-height: 40px;
+    margin-left: 240px;
+    font-size: 20px;
+    color: #777;
+}
+
+.userprofilecontrols {
+    padding: 15px;
+}
+
+.userprofilelbfname {
+    font-size: 18px;
+    color: #555;
+    margin-left: 15px;
+}
+
+.userprofiletxtfname {
+    width: 190px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtfname:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelblname {
+    font-size: 18px;
+    color: #555;
+    margin-left: 100px;
+}
+
+.userprofiletxtlname {
+    margin-left: 95px;
+    width: 190px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtlname:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbemail {
+    position: absolute;
+    margin-top: 20px;
+    color: #555;
+    margin-left: 12px;
+}
+
+.userprofiletxtemail {
+    margin-top: 22px;
+    margin-left: 10px;
+    width: 300px;
+    height: 13px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtemail:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbaddress {
+    position: absolute;
+    color: #555;
+    margin-top: 20px;
+    margin-left:10px;
+}
+
+.userprofiletxtaddress {
+    margin-top: 38px;
+    margin-left: 10px;
+    width: 300px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtaddress:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbstate {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.userprofiletxtstate {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtstate:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbcity {
+    position: absolute;
+    margin-left:-45px;
+    margin-top: 25px;
+}
+
+.userprofiletxtcity {
+    margin-top: 25px;
+    margin-left: -50px;
+    width: 160px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtcity:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbzip {
+    position: absolute;
+    margin-left: -136px;
+    margin-top: 23px;
+}
+
+.userprofiletxtzip {
+    margin-top: 25px;
+    margin-left: -130px;
+    width: 70px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtzip:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbphone {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+.userprofiletxtphone {
+    margin-top: 45px;
+    margin-left: 10px;
+    width: 150px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtphone:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilelbcard {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+.userprofiletxtcard {
+    margin-top: 45px;
+    margin-left: 10px;
+    width: 250px;
+    color: #252525;
+    height: 13px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+}
+
+    .userprofiletxtcard:focus {
+        border: 1px solid #d3722e;
+        box-shadow: 0 0 5px #d3722e;
+    }
+
+.userprofilebtupdate {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 200px;
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+
+    .userprofilebtupdate:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+
+.userprofilebtcancel {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 300px;
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #f58d43;
+    color: #0c0909;
+    background-color: #febd69;
+}
+ .userprofilebtcancel:hover {
+        background-color: #edac57;
+        cursor: pointer;
+    }
+/*End of Profile Styles*/
