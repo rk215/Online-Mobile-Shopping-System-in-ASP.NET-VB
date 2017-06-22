@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" CodeFile="UserHome.master.vb" Inherits="User_UserHome" %>
+<%@ Master Language="VB" CodeFile="UserHome.master.vb" Inherits="User_UserHome" %>
 
 <!DOCTYPE html>
 
@@ -7,11 +7,36 @@
     <title></title>
     <style type="text/css">
         body {
-            font-family:Verdana;
-            padding: 1px;
-            margin: 1px;
-        }  
-       
+            font-family: Verdana;
+            padding: 0px;
+            margin: 0px;
+        }
+        .userprofilediv{
+           margin-top:15px;
+           margin-left:860px;
+        }
+        .userorderdiv{
+             margin-top:-21px;
+            margin-left:940px;
+        }
+        .userprofilehyper {
+            color: #f0f0f0;
+        }
+        .userprofilehyper:hover {
+                border-bottom: 2px solid #128fc6;
+                cursor: pointer;
+                color: #f0f0f0;
+            }
+
+        .csshomevieworderhyper {
+            color: #f0f0f0;
+        }
+
+            .csshomevieworderhyper:hover {
+                cursor: pointer;
+                color: #f0f0f0;
+                border-bottom: 2px solid #128fc6;
+            }
     </style>
     <link href="../StyleSheet.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -22,7 +47,7 @@
         <div>
             <div class="Userheader">
                 <div class="lg-lo">
-                    <asp:Button ID="btHomeLogin" UseSubmitBehavior="false"  CssClass="Userlogin"  runat="server" Text="Login" />
+                    <asp:Button ID="btHomeLogin" UseSubmitBehavior="false" CssClass="Userlogin" runat="server" Text="Login" />
                     <asp:Label ID="lbuser" runat="server" CssClass="lbHomeLogin"></asp:Label>
                     <asp:Button ID="btLogout" runat="server" CssClass="userlogout" Text="Logout" />
                 </div>
@@ -31,14 +56,19 @@
                         Text="RK Mobile Shop" CausesValidation="False" />
                 </h2>
                 <div class="contain">
-                    <asp:TextBox ID="TxtUserHomeSearch" runat="server" 
+                    <asp:TextBox ID="TxtUserHomeSearch" runat="server"
                         placeholder="Enter Mobile Name Here " CssClass="userHometxtSearch "></asp:TextBox>
-                    <asp:Button ID="btSearch" CssClass="userHomebtSearch" runat="server" 
+                    <asp:Button ID="btSearch" CssClass="userHomebtSearch" runat="server"
                         Text="Search" CausesValidation="False" />
                     <asp:Label ID="lbCartCount" CssClass="lbcartcount" runat="server" Text="0"></asp:Label>
-                    <asp:Button ID="btCart" CssClass="userhomebtCart" runat="server" Text="Cart" 
-                        CausesValidation="False" />
-                    <asp:HyperLink ID="Hypervieworder" CssClass="csshomevieworder" NavigateUrl="~/User/View Order.aspx" runat="server">View Order</asp:HyperLink>
+                    <asp:Button ID="btCart" CssClass="userhomebtCart" runat="server" Text="Cart"
+                        CausesValidation="False" /><br />
+                    <div class="userprofilediv">
+                        <asp:HyperLink ID="HyperProfile" NavigateUrl="~/User/userProfile.aspx" CssClass="userprofilehyper" Text="Profile" runat="server"></asp:HyperLink>
+                    </div>
+                    <div class="userorderdiv">
+                        <asp:HyperLink ID="Hypervieworder" CssClass="csshomevieworderhyper" NavigateUrl="~/User/View Order.aspx" runat="server">View Order</asp:HyperLink>
+                    </div>
                 </div>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
